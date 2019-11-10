@@ -9,5 +9,5 @@ https://github.com/Sayen-Raigin/PowerShell/blob/master/Ressources/Script/Get-MSI
 ![alt text](../Ressources/IMG/Get-MSIProperty.png)
 
 Source d'aide : 
-Exemple d'un qui m'a permis de comprendre certaines méthodes
+Exemple d'un site qui m'a permis de comprendre certaines méthodes
 https://www.scconfigmgr.com/2014/08/22/how-to-get-msi-file-information-with-powershell/
