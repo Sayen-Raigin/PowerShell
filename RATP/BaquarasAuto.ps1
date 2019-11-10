@@ -1,7 +1,7 @@
 ﻿$urllogin = "http://baquaras.info.ratp/applications"
-$Login = 'x2019308'
-#Convert your password : $ConvPass = [System.Text.Encoding]::Unicode.GetBytes("tatata"); [Convert]::ToBase64String($ConvPass)
-$Password = [System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String("cBpAG4AZAHQAOQAA585DMANACA"))
+$Login = 'RATP201915'
+#Convert your password : $ConvPass = [System.Text.Encoding]::Unicode.GetBytes("MyPassword"); [Convert]::ToBase64String($ConvPass)
+$Password = [System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String("TQB5AFAAYQBzAHMAdwBvAHIAZAA="))
 
 
 

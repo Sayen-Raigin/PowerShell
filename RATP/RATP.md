@@ -1,5 +1,16 @@
 # PowerShell et la RATP
 
-## Description : 
+## BaquarasAuto.ps1 : 
+Script permettant d'alimenter amatiquement l'entrée d'une nouvelle aplcation dna sle referecmeent applciatif !
 
-<br>
+![alt text](../IMG/BaquarasAuto.png)
+
+<br><br>
+
+
+## BaquarasAuto.ps1 : 
+Script permettant d'alimenter amatiquement l'entrée d'une nouvelle aplcation dna sle referecmeent applciatif !
+
+![alt text](../img/U150-Exemp1.png)
+
+<br><br>
