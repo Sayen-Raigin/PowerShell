@@ -6,7 +6,7 @@ https://github.com/Sayen-Raigin/PowerShell/blob/master/Ressources/Script/Get-MSI
 
 <br>
 
-![alt text](../Ressources/IMG/BaquarasAuto.png)
+![alt text](../Ressources/IMG/Get-MSIProperty.png)
 
 Source d'aide : 
 Exemple d'un qui m'a permis de comprendre certaines méthodes
