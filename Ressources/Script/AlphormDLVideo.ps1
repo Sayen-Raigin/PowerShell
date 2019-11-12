@@ -1,10 +1,10 @@
 ﻿#Indiqué toujours le dernier \ pour le chemin ex :  L:\..\Vidéo\
-$CheminAbsolut= ('\\siege.logware.fr\dfs\CSP\Library\Formation\AlPhorm\')
+$CheminAbsolut= ('\\depot.formation.test\CSP\Library\Formation\AlPhorm\')
 
 
 $urllogin = "https://www.alphorm.com/account/login"
-$Login = 'Alphorm2@logware.fr'
-$Password = 'Password123'
+$Login = 'Alphorm2'
+$Password = 'mdp15'
 $ShowName ='Alphorm 2'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 [void] [System.Reflection.Assembly]::LoadWithPartialName("'System.Windows.Forms")
