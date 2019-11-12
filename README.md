@@ -2,4 +2,3 @@
 
 ## Casser les codes s'est aussi innové. !
 
-![alt text](../Ressources/IMG/Start-GitHub.png)
