@@ -1,0 +1,9 @@
+Client;Server
+"AppDiscovery.log : #Deployement
+Enregistre les details concernant la découverte ou la detection des applications sur les ordinateurs clients.";"PkgXferMgr.log : #Deployement
+Enregistre les actions du composant SMS_Executive charge de l’envoi de contenu d’un site principal vers un point de distribution distant."
+"AppEnforce.log : #Deployement
+Enregistre des details concernant les actions de mise en œuvre (installation et desinstallation) effectuees pour les applications sur le client.";"SMSProv.log : #SQL
+Enregistre les acces du fournisseur WMI à la base de donnees du site."
+"Smsts.log : #OSD
+Enregistre les activités de séquences de tâches.";

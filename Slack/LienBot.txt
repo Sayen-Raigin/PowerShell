@@ -1,0 +1,7 @@
+https://docs.microsoft.com/fr-fr/configmgr/core/plan-design/hierarchy/log-files
+https://www.it-connect.fr/hyper-v-2012-fusion-manuelle-des-captures-instantanees-en-un-seul-fichier-vhd/
+https://docs.microsoft.com/fr-fr/configmgr/osd/understand/task-sequence-variables
+https://www.it-connect.fr/creer-un-domaine-ad-avec-windows-server-2016/
+https://sys-advisor.com/2013/06/20/tuto-sccm-2012-mise-place-role-distribution-point-nouveau-serveur/
+https://www.tech2tech.fr/windows-server-2016-installation-et-configuration-dun-serveur-dhcp/
+https://www.prajwaldesai.com/sccm-1802-install-guide/
