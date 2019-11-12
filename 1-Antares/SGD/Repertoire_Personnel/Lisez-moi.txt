@@ -1,0 +1,1 @@
+Lancer simplement le fichier '' Filer_Auto_Tool.ps1 '' en faisant un clique droit, puis choisir "Executer avec windows powershell"

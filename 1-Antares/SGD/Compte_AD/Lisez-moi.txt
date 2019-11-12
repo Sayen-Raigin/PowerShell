@@ -1,0 +1,12 @@
+Il faut éditer le fichier CSV qui se trouve : Ressource\CSV\CompteSGD.csv
+
+En faisant un clique droit => Edit
+
+Une fois cela fait, lancer simplement le fichier '' AD_Tools_V1_Beta.ps1'' en faisant un clique droit, puis choisir "Exeuter avec windows powershell".
+
+
+Warning :
+
+Pas de caractère du type : é ou è, etc...
+
+Donc suivant le nommage, préférer : Qualité => Qualite

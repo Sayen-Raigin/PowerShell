@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--serialisation-->
+<commandes nombrecommandes="6" nompackage="SIT-Replace-RATP_155.xml" versionpackage="">
+  <filelog>%RATPLOGS%\APPLIS\SIT-Replace-RATP_155_log_uninstall.log</filelog>
+  <shortcutremovelist />
+  <commande nomcommande="lignecom" index="1" insdes="INS" prinpo="INS">
+    <fname>ligne commande</fname>
+    <parametres>
+      <parametre nomparametre="lignecom">msiexec.exe</parametre>
+      <parametre nomparametre="conterrorlist">1707,3010,1641</parametre>
+      <parametre nomparametre="tgtOS">ALL</parametre>
+      <parametre nomparametre="lignecomparams">#KeyInstExec</parametre>
+    </parametres>
+  </commande>
+  <commande nomcommande="lot" index="2" insdes="INS" prinpo="INS">
+    <fname>lot instructions ps</fname>
+    <parametres>
+      <parametre nomparametre="scriptlot">#KeyInstLot1</parametre>
+      <parametre nomparametre="tgtOS">ALL</parametre>
+    </parametres>
+  </commande>
+  <commande nomcommande="lot" index="3" insdes="INS" prinpo="INS">
+    <fname>lot instructions ps</fname>
+    <parametres>
+      <parametre nomparametre="scriptlot">#KeyInstLot2</parametre>
+      <parametre nomparametre="tgtOS">W10</parametre>
+    </parametres>
+  </commande>
+  <commande nomcommande="lignecom" index="1" insdes="DES" prinpo="INS">
+    <fname>ligne commande</fname>
+    <parametres>
+      <parametre nomparametre="lignecom">msiexec.exe</parametre>
+      <parametre nomparametre="conterrorlist">1707,3010,1641</parametre>
+      <parametre nomparametre="tgtOS">ALL</parametre>
+      <parametre nomparametre="lignecomparams">#KeyUninstExec</parametre>
+    </parametres>
+  </commande>
+  <commande nomcommande="lot" index="2" insdes="DES" prinpo="INS">
+    <fname>lot instructions ps</fname>
+    <parametres>
+      <parametre nomparametre="scriptlot">#KeyUninstLot1</parametre>
+      <parametre nomparametre="tgtOS">W10</parametre>
+    </parametres>
+  </commande>
+</commandes>
