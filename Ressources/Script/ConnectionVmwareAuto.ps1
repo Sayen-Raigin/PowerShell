@@ -76,7 +76,7 @@ $username=($env:USERNAME+'@'+$env:USERDNSDOMAIN)
 [Reflection.Assembly]::LoadFile("C:\Users\x2019308\Desktop\RessourceHoussam\PShell\_Script\Project\_Logware\ConnectionChrome\Selenium\WebDriver.dll")
 $chrome = New-Object OpenQA.Selenium.Chrome.ChromeDriver
 
-$chrome.Navigate().GoToUrl('https://csmsrvvct01.csm.logware.fr/')
+$chrome.Navigate().GoToUrl('https://csmsrvvct01.exemple.form/')
     
 $Demarrage = $chrome.FindElementsByLinkText('vSphere Client (HTML5) - fonctionnalité partielle')
 $Demarrage.Click()
