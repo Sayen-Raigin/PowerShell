@@ -1,4 +1,4 @@
-# Projets réalisés au cours de mes différentes expériences professionnelles !
+# Projets réalisés au cours de mes différentes expériences Pro/Perso !
 
 ## Casser les codes s'est aussi innové. !
 
