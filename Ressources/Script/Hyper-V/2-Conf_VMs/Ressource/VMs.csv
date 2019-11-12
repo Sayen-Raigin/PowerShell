@@ -1,0 +1,14 @@
+Name;TypeMachine;TypeOs
+Cli-01;Client;NoCore
+Cli-02;Client;NoCore
+Cli-03;Client;NoCore
+RTR-01;Serveur;NoCore
+RTR-02;Serveur;NoCore
+RTR-03;Serveur;NoCore
+SRV-01;Serveur;NoCore
+SRV-02;Serveur;Core
+SRV-03;Serveur;Core
+SRV-04;Serveur;NoCore
+SRV-05;Serveur;NoCore
+SRV-06;Serveur;NoCore
+SRV-07;Serveur;NoCore

@@ -1,0 +1,9 @@
+#Warning : brasser dans un premier temps les Hôtes ayant plus d'une carte réseau, afin que l'adressage soit appliqué.
+
+
+#Lancer la console en mode admin (via UAC), pour executer le script ci-dessous
+$Path=('C:\Users\'+$env:USERNAME+'\Desktop');
+. ($Path + '\PShell_5\_Script\Aston\2_Conf_VMs\_InjectUnattend.ps1');
+
+
+#Lancer les VMS puis paramétrer les Routeurs au niveau du relay DHCP et le NAT

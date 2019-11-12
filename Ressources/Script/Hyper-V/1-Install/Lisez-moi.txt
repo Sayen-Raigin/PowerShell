@@ -1,0 +1,20 @@
+#Installer Hyper-V
+Get-WindowsFeature -Name "Hyper-V*" | Install-WindowsFeature;
+Restart-Computer;
+
+#Paramétrage de l'hyperviseur
+$Letter=(Get-Disk -Number 0 | Get-Partition)[1].DriveLetter;
+$ArboFolderVM = ($Letter+':\VMs');
+$ArboFolderVHD = ($Letter+':\VHDs');
+$DiskDiffClient=$ArboFolderVHD+'\_W8.vhdx';
+$DiskDiffServer=$ArboFolderVHD+'\_W2012.vhdx';
+Set-VMHost -ComputerName $env:computername -EnableEnhancedSessionMode $true -VirtualMachinePath $ArboFolderVM  -VirtualHardDiskPath $ArboFolderVHD;
+
+#Créer les disques de différenciation (les nommer en _W8 et _W2012)
+New-VHD -Path $DiskDiffClient -ParentPath ($ArboFolderVHD+'\Gold\Master_W8.1_Gold_Sysp.vhdx') -Differencing;
+New-VHD -Path $DiskDiffServer -ParentPath ($ArboFolderVHD+'\Gold\Master_2012_Gold_Sysp.vhdx') -Differencing;
+
+#Lancer d'abord powershell en mode admin (via UAC), puis coller le script ci-dessous
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force;
+$Path=('C:\Users\'+$env:USERNAME+'\Desktop');
+. ($Path+"\PShell_5\_Script\Aston\1_HYPER-V\_Install.ps1");
