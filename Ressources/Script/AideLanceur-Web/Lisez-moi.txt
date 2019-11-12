@@ -1,0 +1,5 @@
+De type de lancement suivant le besoin.
+
+la version .ps1 => Dédié pour les tests.
+
+la version .exe => Dédié pour la production.
