@@ -1,6 +1,6 @@
 # PS et les users
 
-Les deux scripts ne sont qu'on version bêta !
+Scripts version bêta !
 
 ## Script permettant l'ajout d'un nouvel utilisateur.
 https://github.com/Sayen-Raigin/PowerShell/tree/master/Ressources/Script/Antares_Client-SGD/Compte_AD
