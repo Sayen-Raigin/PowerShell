@@ -17,5 +17,3 @@ https://github.com/Sayen-Raigin/PowerShell/tree/master/Ressources/Selenium
 https://github.com/adamdriscoll/selenium-powershell
 
 <br>
-
-![alt text](../Ressources/IMG/BaquarasAuto.png)
