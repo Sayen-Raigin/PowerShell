@@ -13,7 +13,7 @@ https://github.com/Sayen-Raigin/PowerShell/tree/master/Ressources/Selenium
 
 <br>
 
-### Possibilité d'utiliser en version module
+### Possibilité d'utiliser la version module
 https://github.com/adamdriscoll/selenium-powershell
 
 <br>
