@@ -4,7 +4,7 @@
 #------------------------------                   ------------------------------
 #------------------------------ Connection du Bot ------------------------------
 #------------------------------                   ------------------------------
-$Token = "xoxb-815597475253-815610936645-lpQQH13ZkSJrON155xMrcV6L"
+$Token = "xoxb-815597475253-815610936645-OnBTHNNSWgTDiFAZRfHmrKGt"
 
 $RTMSession = Invoke-RestMethod -Uri https://slack.com/api/rtm.start -Body @{token="$Token"}
 Write-Verbose "I am $($RTMSession.self.name)" -Verbose
