@@ -1,4 +1,4 @@
-# Script Bash d'installation de PowerShell sur Debian 10.
+# Script Bash d'installation de PowerShell sur Debian 10
 
 #Source : https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-6#debian-10
 
@@ -24,5 +24,7 @@ tar zxf /tmp/powershell.tar.gz -C /opt/microsoft/powershell/7-preview
 chmod +x /opt/microsoft/powershell/7-preview/pwsh
 ln -s /opt/microsoft/powershell/7-preview/pwsh /usr/bin/pwsh-preview
 pwsh-preview
+
+# 
 
 ![alt text](Ressources/IMG/InstallPSDebian.png)
