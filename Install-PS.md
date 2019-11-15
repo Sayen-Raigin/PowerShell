@@ -28,3 +28,4 @@ pwsh-preview
 # 
 
 ![alt text](Ressources/IMG/InstallPSDebian.png)
+![alt text](Ressources/IMG/InstallPSDebian2.png)
