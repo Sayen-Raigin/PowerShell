@@ -3,6 +3,7 @@
 #Source : https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-6#debian-10
 
 #!/bin/bash
+
 apt-get update
 apt-get install -y \
        less \
